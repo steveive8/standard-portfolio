@@ -8,7 +8,7 @@ export const Header = ({}) => {
             <Image src={Logo} height="70px;" />
             <Col style={{flex: 1}} align="flex-end" justify="flex-end" margin="margin-right: 20px;">
                 <Text color="#FFA03B" margin="margin-bottom: 5px;" size="15">Prof. Jung Rae Kim</Text>
-                <Text color="rgb(120,120,120)" size="15">Su Hyung Choi</Text>
+                <Text color="rgb(120,120,120)" size="15">John Leo</Text>
             </Col>
         </Row>
     )

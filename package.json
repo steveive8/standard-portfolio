@@ -22,6 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://johnsteve108.github.io/financial-state",
   "eslintConfig": {
     "extends": [
       "react-app",
