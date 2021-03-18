@@ -9,6 +9,10 @@ import gold from '../data/gold';
 import kosdaq from '../data/kosdaq';
 import us30 from '../data/us30';
 import korea3 from '../data/korea3';
+import korea from '../data/korea';
+import usd from '../data/usd';
+import cny from '../data/cny';
+import jpy from '../data/jpy';
 
 export const Box = styled(Col)`
     border-radius: 18px;
@@ -62,10 +66,10 @@ export const Board = () => {
                 </Row>
                 {today && 
                 <Row style={{flex: 1}}>
-                    <MinorBoard on={false} today={today} data={us30} title="US 30 Futures" />
-                    <MinorBoard on={false} today={today} data={korea3} title="Korea 3 Futures" />
-                    <MinorBoard on={false} today={today} data={wti} title="WTI" />
-                    <MinorBoard on={false} today={today} data={gold} title="Gold" />
+                    <MinorBoard on={false} today={today} data={korea} title="Korea CD" />
+                    <MinorBoard on={false} today={today} data={usd} title="USD_KRW" />
+                    <MinorBoard on={false} today={today} data={cny} title="CNY_KRW" />
+                    <MinorBoard on={false} today={today} data={jpy} title="JPY_KRW" />
                 </Row>}
             </Col>
         </Col>
@@ -90,17 +94,18 @@ const TodayBox = styled(Row)`
     background-color: rgba(0,0,0,${props => props.today ? '0.7' : 0});
 `;
 
-export const Today = ({data, today, padding, fontsize = "14"}) => {
+export const Today = ({title, data, today, padding, fontsize = "14"}) => {
     return (
         <TodayBox fontsize={fontsize} today={today} padding={padding}>
-            <Col align="center" style={{flex: 1}}>
+            {title !== "Korea CD" ? <>
+            {data.price && <Col align="center" style={{flex: 1}}>
                 <Text size={fontsize} margin="margin-bottom: 10px;">Price</Text>
                 <Text size={fontsize} color="#00dcff">{data.price}</Text>
-            </Col>
-            <Col align="center" style={{flex: 1}}>
+            </Col>}
+            {data.open && <Col align="center" style={{flex: 1}}>
                 <Text size={fontsize} margin="margin-bottom: 10px;">Open</Text>
                 <Text size={fontsize}>{data.open === undefined ? "-" : data.open}</Text>
-            </Col>
+            </Col>}
             {data.close && <Col align="center" style={{flex: 1}}>
                 <Text size={fontsize} margin="margin-bottom: 10px;">Close</Text>
                 <Text size={fontsize}>{data.close === undefined ? "-" : data.close}</Text>
@@ -121,6 +126,13 @@ export const Today = ({data, today, padding, fontsize = "14"}) => {
                 <Text size={fontsize} margin="margin-bottom: 10px;">Change</Text>
                 <Text color={String(data.change).slice(0,1) === "-" ? 'red' : '#00dcff'} size={fontsize}>{data.change === undefined ? "-" : data.change}</Text>
             </Col>
+            </> :
+            <>
+            {data.cd91 && <Col align="center" style={{flex: 1}}>
+                <Text size={fontsize} margin="margin-bottom: 10px;">Interest</Text>
+                <Text size={fontsize}>{data.cd91}</Text>
+            </Col>}
+            </>}
         </TodayBox>
     )
 }
@@ -136,7 +148,7 @@ export const MainBoard = ({title, data, today}) => {
                 <Text weight="300" color="white">{today ? "2021 March 17" : "Last 1 Year"}</Text>
                 </Row>
             </Link>
-            <Today data={data[data.length -1]} today={today} />
+            <Today title={title} data={data[data.length -1]} today={today} />
             <AreaChart
                 width={825}
                 height={285}
@@ -160,7 +172,7 @@ export const RightBoard = ({title, data, today}) => {
                 <Text weight="300" color="white">{today ? "2021 March 17" : "Last 1 Year"}</Text>
                 </Row>
             </Link>
-            <Today data={data[data.length -1]} today={today} />
+            <Today title={title} data={data[data.length -1]} today={today} />
             <AreaChart
                 width={390}
                 height={110}
@@ -184,7 +196,7 @@ export const MinorBoard = ({title, data, today, on = true}) => {
                 <Text weight="300" color="white">{today ? "2021 March 17" : "Last 1 Year"}</Text>
                 </Row>
             </Link>
-            <Today fontsize={12.8} padding="padding: 0px 5px;" data={data[data.length -1]} today={today} />
+            <Today title={title} fontsize={12.8} padding="padding: 0px 5px;" data={data[data.length -1]} today={today} />
             {on && <AreaChart
                 width={300}
                 height={100}
@@ -193,7 +205,7 @@ export const MinorBoard = ({title, data, today, on = true}) => {
                 >
                 <XAxis dataKey="name" tick={{ fontSize: 12 }} />
                 <Tooltip />
-                <Area type="monotone" dataKey="price" stroke="#FFA03B" fill="#9500C3" />
+                <Area type="monotone" dataKey={title === "Korea CD" ? "cd91" : "price"} stroke="#FFA03B" fill="#9500C3" />
             </AreaChart>}
         </Box>
     )
