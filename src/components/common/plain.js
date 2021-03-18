@@ -32,6 +32,7 @@ export const Flex = styled.div`
     ${props => props.us === "none" ? "user-select: none" : null};
     opacity: ${props => props.opacity};
     position: ${props => props.position};
+    flex: ${props => props.flex && props.flex};
 `;
 
 export const Row = styled(Flex)`
