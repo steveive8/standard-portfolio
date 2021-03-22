@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/financial-state/static/js/main.6c3e07c3.chunk.js",
-    "main.js.map": "/financial-state/static/js/main.6c3e07c3.chunk.js.map",
+    "main.js": "/financial-state/static/js/main.a815c9a6.chunk.js",
+    "main.js.map": "/financial-state/static/js/main.a815c9a6.chunk.js.map",
     "runtime-main.js": "/financial-state/static/js/runtime-main.4ada281e.js",
     "runtime-main.js.map": "/financial-state/static/js/runtime-main.4ada281e.js.map",
     "static/js/2.92eb5f24.chunk.js": "/financial-state/static/js/2.92eb5f24.chunk.js",
@@ -13,6 +13,6 @@
   "entrypoints": [
     "static/js/runtime-main.4ada281e.js",
     "static/js/2.92eb5f24.chunk.js",
-    "static/js/main.6c3e07c3.chunk.js"
+    "static/js/main.a815c9a6.chunk.js"
   ]
 }
