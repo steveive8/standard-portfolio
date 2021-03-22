@@ -1,4 +1,6 @@
 export const dow = [
+  {name: "Mar 19, 2021", price:	32627.97, open:	32858.36, high:	32858.36, low: 32505.07, vol:	"847.02M", change:	"-0.71%"},
+  {name: "Mar 18, 2021", price:	32862.30, open:	32928.16, high:	33227.78, low: 32831.25, vol:	"421.02M", change:	"-0.46%"},
   {
     name: "Mar 16, 2021",
     price: 32825.95,

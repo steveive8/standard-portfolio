@@ -1,4 +1,7 @@
 export const cny = [
+  {name: "Mar 22, 2021", price:	173.34, open:	173.53, high:	174.14, low: 173.30, change: "-0.11%"},
+  {name: "Mar 21, 2021", price:	173.53, open:	173.53, high:	173.53, low: 173.52, change: "0.06%"},
+  {name: "Mar 19, 2021", price:	173.42, open:	173.41, high:	174.30, low: 172.96, change: "0.06%"},
     {
       name: "2021년 03월 18일",
       close: 173,

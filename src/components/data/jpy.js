@@ -1,4 +1,7 @@
 export const jpy = [
+    {name: "Mar 22, 2021", price:	10.3793, open: 10.3741, high:	10.4150, low:	10.3729, change: "0.05%"},
+    {name: "Mar 21, 2021", price:	10.3741, open: 10.4008, high:	10.4037, low:	10.3682, change: "0.05%"},
+    {name: "Mar 19, 2021", price:	10.3684, open: 10.3618, high:	10.4103, low:	10.3296, change: "0.13%"},
     {
       name: "2021년 03월 18일",
       close: 10.3169,

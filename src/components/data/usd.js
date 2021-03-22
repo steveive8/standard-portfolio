@@ -1,4 +1,7 @@
 export const usd = [
+      {name: "Mar 22, 2021", price:	1128.75, open: 1131.00, high:	1133.57, low:	1128.15, change: "-0.06%"},
+      {name: "Mar 21, 2021", price:	1129.48, open: 1129.47, high:	1129.48, low:	1129.46, change: "0.03%"},
+      {name: "Mar 19, 2021", price:	1129.12, open: 1128.25, high:	1134.80, low:	1125.31, change: "0.12%"},
     {
       name: "2021년 03월 18일",
       close: 1124.70,

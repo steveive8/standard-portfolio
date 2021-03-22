@@ -1,4 +1,7 @@
 export const kospi = [
+  {name: "Mar 22, 2021", price:	3035.46, open: 3040.01, high:	3048.11, low:	3019.60, vol:	"903.02K", change: "-0.13%"},
+  {name: "Mar 19, 2021", price:	3039.53, open: 3063.01, high:	3063.01, low:	3022.49, vol:	"1.07B", change: "-0.86%"},
+  {name: "Mar 18, 2021", price:	3066.01, open: 3054.93, high:	3090.19, low:	3054.93, vol:	"1.23B", change: "0.61%"},
     {
       name: "Mar 17, 2021",
       price: 3047.50,

@@ -1,5 +1,38 @@
 export const us30 = [
     {
+      name: "Mar 22, 2021",
+      price: 32405.0, 
+      open:	32469.5, 
+      high: 32477.0, 
+      low: 32370.0, 
+      vol: "-", 
+      change:	"-0.20%"
+    },
+    {
+      name: "Mar 21, 2021",
+      price: 32469.0, 
+      open:	32499.0, 
+      high: 32499.0, 
+      low: 32421.0, 
+      vol: "-", 
+      change:	"-1.03%"},
+    {
+      name: "Mar 19, 2021",
+      price: 32807.9, 
+      open:	32899.0, 
+      high: 32994.0, 
+      low: 32841.0, 
+      vol: "2.77K", 
+      change:	"-0.22%"},
+    {
+      name: "Mar 18, 2021",
+      price: 32880.0, 
+      open:	33024.0, 
+      high: 33233.0, 
+      low: 32842.0, 
+      vol: "35.81K", 
+      change:	"-0.41%"},
+    {
       name: "Mar 17, 2021",
       price: 32745.0,
       open: 32721.0,

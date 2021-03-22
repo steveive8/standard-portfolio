@@ -1,4 +1,8 @@
 export const gold = [
+  {name: "Mar 22, 2021", price:	1728.35, open: 1737.25, high: 1742.05, low: 1727.80, vol:	"-", change: 	"-0.52%"},
+  {name: "Mar 21, 2021", price:	1737.30, open: 1743.50, high: 1746.80, low: 1737.15, vol:	"-", change:	"-0.25%"},
+  {name: "Mar 19, 2021", price:	1741.70, open: 1733.70, high: 1746.10, low: 1727.10, vol:	"213.28K", change: "0.53%"},
+  {name: "Mar 18, 2021", price:	1732.50, open: 1744.00, high: 1754.20, low: 1716.60, vol:	"251.76K", change: "0.31%"},
     {
       name: "Mar 17, 2021",
       price: 1733.65,

@@ -145,7 +145,7 @@ export const MainBoard = ({title, data, today}) => {
             <Link>
                 <Row align="center" justify="space-between" style={{zIndex: 1000, position: 'relative'}}>
                 <Text weight="500" size="20" color="#FFA03B">{title}</Text>
-                <Text weight="300" color="white">{today ? "2021 March 17" : "Last 1 Year"}</Text>
+                <Text weight="300" color="white">{today ? "2021 March 22" : "Last 1 Year"}</Text>
                 </Row>
             </Link>
             <Today title={title} data={data[data.length -1]} today={today} />

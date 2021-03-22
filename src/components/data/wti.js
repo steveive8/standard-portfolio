@@ -1,4 +1,8 @@
 export const wti = [
+    {name: "Mar 22, 2021", price: 60.69, open: 60.91, high:	61.39, low:	60.62, vol:	"-", change: "-0.38%"},
+    {name: "Mar 21, 2021", price: 60.92, open: 61.61, high:	61.64, low:	60.87, vol:	"-", change: "-0.81%"},
+    {name: "Mar 19, 2021", price: 61.42, open: 59.56, high:	61.72, low:	58.94, vol:	"84.17K", change: "2.37%"},
+    {name: "Mar 18, 2021", price: 60.00, open: 64.42, high:	64.82, low:	58.20, vol:	"143.60K", change: "-7.12%"},
 {
     name: "Mar 17, 2021", price: 64.65, open: 64.90, close:	65.33, low:	64.54, vol:	"-------",    change:"-0.23%"
 },

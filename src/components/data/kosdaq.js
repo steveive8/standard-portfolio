@@ -1,4 +1,7 @@
 export const kosdaq = [
+  {name: "Mar 22, 2021", price:	955.38, open: 953.04, high:	957.52, low: 948.77, vol:	"1.74M", change: "0.34%"},
+  {name: "Mar 19, 2021", price:	952.11, open: 946.61, high:	953.06, low: 935.27, vol:	"1.66B", change: "0.24%"},
+  {name: "Mar 18, 2021", price:	949.83, open: 945.11, high:	953.10, low: 945.11, vol:	"2.06B", change: "0.64%"},
     {
       name: "Mar 17, 2021",
       price: 943.78,
