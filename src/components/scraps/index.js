@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {Flex, Col, Row, Text} from '../common/plain';
+import {Flex, Col, Row, Text, Image} from '../common/plain';
 import {ScrapBox, Slide} from './components';
+import finance_scrap from '../../images/finance_scraps_black.png';
 
 const data = [
     {
@@ -85,6 +86,7 @@ const data = [
     }
 ]
 
+/*
 export const Scrap = ({}) => {
     const [scrap, setScrap] = useState(false);
     return (
@@ -100,15 +102,15 @@ export const Scrap = ({}) => {
         </Col>
     )
 }
+*/
 
-/*
 export const Scrap = ({}) => {
     const [scrap, setScrap] = useState(false);
     return (
-        <Col width="100vw" height="100vh" justify="center">
+        <Col width="100%" justify="center">
             <Slide setScrap={setScrap} scrap={scrap} data={data[scrap]} />
-            <Text weight="500" size="30" color="#FFA03B" margin="margin: 30px;">Financial Scraps</Text>
-            <Col width="100%" height="80%" align="center" justify="center">
+            <Image src={finance_scrap} height="35px" of="contain" margin="margin: 10px 0px; margin-top: 18px;" />
+            <Col width="100%" align="center" justify="center" margin="margin-top: 20px;">
                 <Row width="100%" height="100%" align="center">
                     {data.slice(0,4).map((item, index) => <ScrapBox setScrap={setScrap} index={index} data={item} key={index}/>)}
                 </Row>
@@ -119,6 +121,5 @@ export const Scrap = ({}) => {
         </Col>
     )
 }
-*/
 
 export default Scrap;

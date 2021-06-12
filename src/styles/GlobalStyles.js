@@ -13,10 +13,7 @@ export default createGlobalStyle`
     }
     body {
         font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'telegrafico';
-        .mapboxgl-ctrl-bottom-left {
-            opacity: 0.7;
-        };
-        background-color: black;
+        background-color: rgb(240,240,230);
     }
     a {
         text-decoration: none;

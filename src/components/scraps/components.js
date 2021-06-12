@@ -32,7 +32,7 @@ export const ScrapBox = ({setScrap, index, data}) => {
 export const Slide = ({scrap, setScrap, data = {title: "", description: "", src: ""}, article}) => {
     const {title, description, src} = data;
     return (
-        <Col width="25%" height="90%" position="fixed" bg="rgb(10,10,10)" zIndex={1000} style={{opacity: scrap ? 1 : 0, right: scrap ? '0%' : '-25%', transition: 'all 300ms', top: 90}}>
+        <Col width="25%" height="100%" position="fixed" bg="rgb(10,10,10)" zIndex={1002} style={{opacity: scrap ? 1 : 0, right: scrap ? '0%' : '-25%', transition: 'all 300ms', top: 0}}>
             <Row padding="padding: 15px;">
                 <Text color="white" weight="700">{title ? title : null}</Text>
                 <Text color="white" onClick={() => setScrap(false)}>닫기</Text>

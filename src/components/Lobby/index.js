@@ -4,9 +4,7 @@ import Board from './board';
 
 export const Index = ({}) => {
     return (
-        <div style={{width: '100vw', height: '100vh', overflow: 'hidden', paddingTop: 50}}>
-            <Board />
-        </div>
+        <Board />
     )
 };
 
