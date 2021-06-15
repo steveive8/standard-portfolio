@@ -15,6 +15,7 @@ import korea from '../data/korea';
 import usd from '../data/usd';
 import cny from '../data/cny';
 import jpy from '../data/jpy';
+import interest from '../data/interests';
 
 //images
 import finance_now_logo from '../../images/finance_now.png'
@@ -33,6 +34,7 @@ import exchangepic from '../../images/exchange_rates.png'
 import usdpic from '../../images/usd:krw.png';
 import jpypic from '../../images/jpy:krw.png';
 import cnypic from '../../images/cny:krw.png';
+import kosdaqpic from '../../images/kosdaq.png';
 
 
 
@@ -59,14 +61,14 @@ export const Board = () => {
                 <Image src={stockpic} height="28px" of="contain" margin="margin: 20px 0px; margin-top: 10px;" />
                 <Row align="flex-start" justify="space-between" width="100%" margin="margin-bottom: 15px;">
                     <MiddleBoard img={kospipic} data={kospi} title="KOSPI" />
-                    <MiddleBoard img={nasdaqpic} data={kosdaq} title="NASDAQ" />
+                    <MiddleBoard img={kosdaqpic} data={kosdaq} title="KOSDAQ" />
                     <MiddleBoard img={dowpic} data={dow} title="DOW" />
                 </Row>
                 <Image src={interestspic} height="28px" of="contain" margin="margin: 20px 0px;" />
                 <Row align="flex-start" justify="space-between" width="100%" margin="margin-bottom: 15px;">
-                    <MiddleBoard img={korea3pic} data={us30} title="Korea 3 Year Bond Yield" />
-                    <MiddleBoard img={cb3pic} data={korea3} title="Korea Corporate 3 Year Bond Yield" />
-                    <MiddleBoard img={cd91pic} data={korea} title="Korea CD 91" />
+                    <MiddleBoard img={korea3pic} data={interest[1]} title="Korea 3 Year Bond Yield" />
+                    <MiddleBoard img={cb3pic} data={interest[2]} title="Korea Corporate 3 Year Bond Yield" />
+                    <MiddleBoard img={cd91pic} data={interest[0]} title="Korea CD 91" />
                 </Row>
                 <Image src={exchangepic} height="28px" of="contain" margin="margin: 20px 0px;" />
                 <Row align="flex-start" justify="space-between" width="100%" margin="margin-bottom: 15px;">
@@ -195,7 +197,7 @@ export const MainBoard = ({title, data, today}) => {
                 data={data}
                 margin={{top: 0}}
                 >
-                <XAxis dataKey="name" tick={{ fontSize: 12 }} />
+                <XAxis dataKey="date" tick={{ fontSize: 12 }} />
                 <Tooltip />
                 <Area type="monotone" dataKey="price" stroke="#FFA03B" fill="#2119C2" />
             </AreaChart>
@@ -209,7 +211,7 @@ export const MiddleBoard = ({title, data, img}) => {
         <Box>
             <Row zIndex={100} to="cursor" onMouseOver={() => setToday(true)} onMouseLeave={() => setToday(false)} align="center" justify="space-between" margin="margin-bottom: 20px;">
                 <Image src={img} height="25px" of="contain" />
-                <Text weight="500">{today ? "2021 March 22" : "Last 1 Year"}</Text>
+                <Text weight="500">{today ? "2021 March 22" : title === "KOSDAQ" ? "Last 1 Year" : "Recent 3 Month"}</Text>
             </Row>
             <Today title={title} data={data[data.length -1]} today={today} />
             <AreaChart
@@ -218,7 +220,7 @@ export const MiddleBoard = ({title, data, img}) => {
                 data={data}
                 margin={{top: 0}}
                 >
-                <XAxis dataKey="name" tick={{ fontSize: 12 }} />
+                <XAxis dataKey={title === "KOSDAQ" ? "name" : "date"} tick={{ fontSize: 12 }} />
                 <Tooltip />
                 <Area type="monotone" dataKey="price" stroke="black" fill="rgb(232,170,90)" fillOpacity={0.51} />
             </AreaChart>
@@ -241,7 +243,7 @@ export const LongBoard = ({title, data, img}) => {
                 data={data}
                 margin={{top: 0}}
                 >
-                <XAxis dataKey="name" tick={{ fontSize: 12 }} />
+                <XAxis dataKey="date" tick={{ fontSize: 12 }} />
                 <Tooltip />
                 <Area type="monotone" dataKey={title === "Korea CD" ? "cd91" : "price"} stroke="black" fill="rgb(232,170,90)" fillOpacity={0.55} />
             </AreaChart>

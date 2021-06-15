@@ -1,7 +1,9 @@
-/* eslint-disable import/no-anonymous-default-export */
-/* eslint-disable import/no-anonymous-default-export */
 export default [
     [//cd91
+      {
+          date: "2021/03/01",
+      price: "",
+      },
       {
           date: "2021/03/02",
       price: 0.74,
@@ -17,6 +19,14 @@ export default [
       {
           date: "2021/03/05",
       price: 0.74,
+      },
+      {
+          date: "2021/03/06",
+      price: "",
+      },
+      {
+          date: "2021/03/07",
+      price: "",
       },
       {
           date: "2021/03/08",
@@ -39,6 +49,14 @@ export default [
       price: 0.75,
       },
       {
+          date: "2021/03/13",
+      price: "",
+      },
+      {
+          date: "2021/03/14",
+      price: "",
+      },
+      {
           date: "2021/03/15",
       price: 0.75,
       },
@@ -57,6 +75,14 @@ export default [
       {
           date: "2021/03/19",
       price: 0.75,
+      },
+      {
+          date: "2021/03/20",
+      price: "",
+      },
+      {
+          date: "2021/03/21",
+      price: "",
       },
       {
           date: "2021/03/22",
@@ -79,6 +105,14 @@ export default [
       price: 0.75,
       },
       {
+          date: "2021/03/27",
+      price: "",
+      },
+      {
+          date: "2021/03/28",
+      price: "",
+      },
+      {
           date: "2021/03/29",
       price: 0.75,
       },
@@ -97,6 +131,14 @@ export default [
       {
           date: "2021/04/02",
       price: 0.75,
+      },
+      {
+          date: "2021/04/03",
+      price: "",
+      },
+      {
+          date: "2021/04/04",
+      price: "",
       },
       {
           date: "2021/04/05",
@@ -119,6 +161,14 @@ export default [
       price: 0.75,
       },
       {
+          date: "2021/04/10",
+      price: "",
+      },
+      {
+          date: "2021/04/11",
+      price: "",
+      },
+      {
           date: "2021/04/12",
       price: 0.75,
       },
@@ -137,6 +187,14 @@ export default [
       {
           date: "2021/04/16",
       price: 0.73,
+      },
+      {
+          date: "2021/04/17",
+      price: "",
+      },
+      {
+          date: "2021/04/18",
+      price: "",
       },
       {
           date: "2021/04/19",
@@ -159,6 +217,14 @@ export default [
       price: 0.73,
       },
       {
+          date: "2021/04/24",
+      price: "",
+      },
+      {
+          date: "2021/04/25",
+      price: "",
+      },
+      {
           date: "2021/04/26",
       price: 0.73,
       },
@@ -179,6 +245,14 @@ export default [
       price: 0.73,
       },
       {
+          date: "2021/05/01",
+      price: "",
+      },
+      {
+          date: "2021/05/02",
+      price: "",
+      },
+      {
           date: "2021/05/03",
       price: 0.73,
       },
@@ -187,12 +261,24 @@ export default [
       price: 0.73,
       },
       {
+          date: "2021/05/05",
+      price: "",
+      },
+      {
           date: "2021/05/06",
       price: 0.73,
       },
       {
           date: "2021/05/07",
       price: 0.72,
+      },
+      {
+          date: "2021/05/08",
+      price: "",
+      },
+      {
+          date: "2021/05/09",
+      price: "",
       },
       {
           date: "2021/05/10",
@@ -215,6 +301,14 @@ export default [
       price: 0.67,
       },
       {
+          date: "2021/05/15",
+      price: "",
+      },
+      {
+          date: "2021/05/16",
+      price: "",
+      },
+      {
           date: "2021/05/17",
       price: 0.67,
       },
@@ -223,12 +317,24 @@ export default [
       price: 0.67,
       },
       {
+          date: "2021/05/19",
+      price: "",
+      },
+      {
           date: "2021/05/20",
       price: 0.66,
       },
       {
           date: "2021/05/21",
       price: 0.66,
+      },
+      {
+          date: "2021/05/22",
+      price: "",
+      },
+      {
+          date: "2021/05/23",
+      price: "",
       },
       {
           date: "2021/05/24",
@@ -251,6 +357,14 @@ export default [
       price: 0.66,
       },
       {
+          date: "2021/05/29",
+      price: "",
+      },
+      {
+          date: "2021/05/30",
+      price: "",
+      },
+      {
           date: "2021/05/31",
       price: 0.66,
       },
@@ -269,6 +383,14 @@ export default [
       {
           date: "2021/06/04",
       price: 0.66,
+      },
+      {
+          date: "2021/06/05",
+      price: "",
+      },
+      {
+          date: "2021/06/06",
+      price: "",
       },
       {
           date: "2021/06/07",
@@ -293,6 +415,10 @@ export default [
     ],
     [//korea3
       {
+          date: "2021/03/01",
+      price: "",
+      },
+      {
           date: "2021/03/02",
       price: 1.021,
       },
@@ -307,6 +433,14 @@ export default [
       {
           date: "2021/03/05",
       price: 1.066,
+      },
+      {
+          date: "2021/03/06",
+      price: "",
+      },
+      {
+          date: "2021/03/07",
+      price: "",
       },
       {
           date: "2021/03/08",
@@ -329,6 +463,14 @@ export default [
       price: 1.223,
       },
       {
+          date: "2021/03/13",
+      price: "",
+      },
+      {
+          date: "2021/03/14",
+      price: "",
+      },
+      {
           date: "2021/03/15",
       price: 1.238,
       },
@@ -347,6 +489,14 @@ export default [
       {
           date: "2021/03/19",
       price: 1.146,
+      },
+      {
+          date: "2021/03/20",
+      price: "",
+      },
+      {
+          date: "2021/03/21",
+      price: "",
       },
       {
           date: "2021/03/22",
@@ -369,6 +519,14 @@ export default [
       price: 1.117,
       },
       {
+          date: "2021/03/27",
+      price: "",
+      },
+      {
+          date: "2021/03/28",
+      price: "",
+      },
+      {
           date: "2021/03/29",
       price: 1.119,
       },
@@ -387,6 +545,14 @@ export default [
       {
           date: "2021/04/02",
       price: 1.151,
+      },
+      {
+          date: "2021/04/03",
+      price: "",
+      },
+      {
+          date: "2021/04/04",
+      price: "",
       },
       {
           date: "2021/04/05",
@@ -409,6 +575,14 @@ export default [
       price: 1.168,
       },
       {
+          date: "2021/04/10",
+      price: "",
+      },
+      {
+          date: "2021/04/11",
+      price: "",
+      },
+      {
           date: "2021/04/12",
       price: 1.14,
       },
@@ -427,6 +601,14 @@ export default [
       {
           date: "2021/04/16",
       price: 1.154,
+      },
+      {
+          date: "2021/04/17",
+      price: "",
+      },
+      {
+          date: "2021/04/18",
+      price: "",
       },
       {
           date: "2021/04/19",
@@ -449,6 +631,14 @@ export default [
       price: 1.12,
       },
       {
+          date: "2021/04/24",
+      price: "",
+      },
+      {
+          date: "2021/04/25",
+      price: "",
+      },
+      {
           date: "2021/04/26",
       price: 1.119,
       },
@@ -469,6 +659,14 @@ export default [
       price: 1.141,
       },
       {
+          date: "2021/05/01",
+      price: "",
+      },
+      {
+          date: "2021/05/02",
+      price: "",
+      },
+      {
           date: "2021/05/03",
       price: 1.149,
       },
@@ -477,12 +675,24 @@ export default [
       price: 1.158,
       },
       {
+          date: "2021/05/05",
+      price: "",
+      },
+      {
           date: "2021/05/06",
       price: 1.14,
       },
       {
           date: "2021/05/07",
       price: 1.137,
+      },
+      {
+          date: "2021/05/08",
+      price: "",
+      },
+      {
+          date: "2021/05/09",
+      price: "",
       },
       {
           date: "2021/05/10",
@@ -505,6 +715,14 @@ export default [
       price: 1.116,
       },
       {
+          date: "2021/05/15",
+      price: "",
+      },
+      {
+          date: "2021/05/16",
+      price: "",
+      },
+      {
           date: "2021/05/17",
       price: 1.107,
       },
@@ -513,12 +731,24 @@ export default [
       price: 1.099,
       },
       {
+          date: "2021/05/19",
+      price: "",
+      },
+      {
           date: "2021/05/20",
       price: 1.103,
       },
       {
           date: "2021/05/21",
       price: 1.095,
+      },
+      {
+          date: "2021/05/22",
+      price: "",
+      },
+      {
+          date: "2021/05/23",
+      price: "",
       },
       {
           date: "2021/05/24",
@@ -541,6 +771,14 @@ export default [
       price: 1.162,
       },
       {
+          date: "2021/05/29",
+      price: "",
+      },
+      {
+          date: "2021/05/30",
+      price: "",
+      },
+      {
           date: "2021/05/31",
       price: 1.227,
       },
@@ -559,6 +797,14 @@ export default [
       {
           date: "2021/06/04",
       price: 1.22,
+      },
+      {
+          date: "2021/06/05",
+      price: "",
+      },
+      {
+          date: "2021/06/06",
+      price: "",
       },
       {
           date: "2021/06/07",
@@ -583,6 +829,10 @@ export default [
     ],
     [//cb3
       {
+          date: "2021/03/01",
+      price: "",
+      },
+      {
           date: "2021/03/02",
       price: 8.433,
       },
@@ -597,6 +847,14 @@ export default [
       {
           date: "2021/03/05",
       price: 8.461,
+      },
+      {
+          date: "2021/03/06",
+      price: "",
+      },
+      {
+          date: "2021/03/07",
+      price: "",
       },
       {
           date: "2021/03/08",
@@ -619,6 +877,14 @@ export default [
       price: 8.523,
       },
       {
+          date: "2021/03/13",
+      price: "",
+      },
+      {
+          date: "2021/03/14",
+      price: "",
+      },
+      {
           date: "2021/03/15",
       price: 8.53,
       },
@@ -637,6 +903,14 @@ export default [
       {
           date: "2021/03/19",
       price: 8.45,
+      },
+      {
+          date: "2021/03/20",
+      price: "",
+      },
+      {
+          date: "2021/03/21",
+      price: "",
       },
       {
           date: "2021/03/22",
@@ -659,6 +933,14 @@ export default [
       price: 8.417,
       },
       {
+          date: "2021/03/27",
+      price: "",
+      },
+      {
+          date: "2021/03/28",
+      price: "",
+      },
+      {
           date: "2021/03/29",
       price: 8.417,
       },
@@ -677,6 +959,14 @@ export default [
       {
           date: "2021/04/02",
       price: 8.425,
+      },
+      {
+          date: "2021/04/03",
+      price: "",
+      },
+      {
+          date: "2021/04/04",
+      price: "",
       },
       {
           date: "2021/04/05",
@@ -699,6 +989,14 @@ export default [
       price: 8.419,
       },
       {
+          date: "2021/04/10",
+      price: "",
+      },
+      {
+          date: "2021/04/11",
+      price: "",
+      },
+      {
           date: "2021/04/12",
       price: 8.394,
       },
@@ -717,6 +1015,14 @@ export default [
       {
           date: "2021/04/16",
       price: 8.391,
+      },
+      {
+          date: "2021/04/17",
+      price: "",
+      },
+      {
+          date: "2021/04/18",
+      price: "",
       },
       {
           date: "2021/04/19",
@@ -739,6 +1045,14 @@ export default [
       price: 8.285,
       },
       {
+          date: "2021/04/24",
+      price: "",
+      },
+      {
+          date: "2021/04/25",
+      price: "",
+      },
+      {
           date: "2021/04/26",
       price: 8.281,
       },
@@ -759,6 +1073,14 @@ export default [
       price: 8.28,
       },
       {
+          date: "2021/05/01",
+      price: "",
+      },
+      {
+          date: "2021/05/02",
+      price: "",
+      },
+      {
           date: "2021/05/03",
       price: 8.284,
       },
@@ -767,12 +1089,24 @@ export default [
       price: 8.287,
       },
       {
+          date: "2021/05/05",
+      price: "",
+      },
+      {
           date: "2021/05/06",
       price: 8.266,
       },
       {
           date: "2021/05/07",
       price: 8.266,
+      },
+      {
+          date: "2021/05/08",
+      price: "",
+      },
+      {
+          date: "2021/05/09",
+      price: "",
       },
       {
           date: "2021/05/10",
@@ -795,6 +1129,14 @@ export default [
       price: 8.249,
       },
       {
+          date: "2021/05/15",
+      price: "",
+      },
+      {
+          date: "2021/05/16",
+      price: "",
+      },
+      {
           date: "2021/05/17",
       price: 8.239,
       },
@@ -803,12 +1145,24 @@ export default [
       price: 8.232,
       },
       {
+          date: "2021/05/19",
+      price: "",
+      },
+      {
           date: "2021/05/20",
       price: 8.237,
       },
       {
           date: "2021/05/21",
       price: 8.229,
+      },
+      {
+          date: "2021/05/22",
+      price: "",
+      },
+      {
+          date: "2021/05/23",
+      price: "",
       },
       {
           date: "2021/05/24",
@@ -831,6 +1185,14 @@ export default [
       price: 8.271,
       },
       {
+          date: "2021/05/29",
+      price: "",
+      },
+      {
+          date: "2021/05/30",
+      price: "",
+      },
+      {
           date: "2021/05/31",
       price: 8.318,
       },
@@ -851,6 +1213,14 @@ export default [
       price: 8.301,
       },
       {
+          date: "2021/06/05",
+      price: "",
+      },
+      {
+          date: "2021/06/06",
+      price: "",
+      },
+      {
           date: "2021/06/07",
       price: 8.283,
       },
@@ -866,5 +1236,9 @@ export default [
           date: "2021/06/10",
       price: 8.25,
       },
+      {
+          date: "2021/06/11",
+      price: ""
+    }
 ],
 ]
