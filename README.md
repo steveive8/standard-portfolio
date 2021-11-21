@@ -8,29 +8,29 @@ State Panel of Financial data of DOW, KOSPI, KOSDAQ, US 30 FUTURES, WTI, GOLD IN
 
 NASDAQ Predicting with Techincal indicators base on Transformer and Time Embedding
 
-- Technical indicators
+#### Technical indicators
 
-1. Trend Indicators
+##### 1. Trend Indicators
 
-> MACD (Moving AVerage Convergency & Divergency)
-> DMI (Directional Movement Index)
-> ADX (Average Directional Movement Index)
-> ROC (Rate of Chnage)
-> Pivot Line
-> Parabolic Sar
+- MACD (Moving AVerage Convergency & Divergency)
+-  DMI (Directional Movement Index)
+- ADX (Average Directional Movement Index)
+- ROC (Rate of Chnage)
+- Pivot Line
+- Parabolic Sar
 
 
-2. Momentum Indicators
+##### 2. Momentum Indicators
 
-> Stochastic
-> RSI (Relative Strength Index)
-> TRIX (Triple Exponetially Smoothed Moving Average)
+- Stochastic
+- RSI (Relative Strength Index)
+- TRIX (Triple Exponetially Smoothed Moving Average)
 
-3. Volatility Indicators
+##### 3. Volatility Indicators
 
-> Bollinger Band
-> ATR
+- Bollinger Band
+- ATR
 
-4. Market strength indicators
+##### 4. Market strength indicators
 
-> MFI (Money Flow Index)
+- MFI (Money Flow Index)
